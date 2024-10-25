@@ -9,13 +9,13 @@ ToDo List is a lightweight tool to parse and compile "Todos" from your game's sc
 In the Unity Editor, in the top menu bar, under the "Tools" tab you'll find "ToDoList" option.\
 This will open the ToDo List editor window.
 
-![](Screenshots/Menu.png)
+![](.Screenshots/Menu.png)
 
 The window is separated into two sections :
 - The todo list, on top.
 - The excluded scripts list, on the bottom.
 
-![](Screenshots/Window.png)
+![](.Screenshots/Window.png)
 
 ### Todo list
 
@@ -26,7 +26,7 @@ All the text in the same line following this flag will be parsed.
 
 _Clicking on a script todo in the window will open the script at said line in your prefered code editor._
 
-![](Screenshots/Script.png)
+![](.Screenshots/Script.png)
 
 To place a _todo_ in a _.todo_ file, create a new text file with the extension ".todo".\
 Any line starting with "- " will be parsed.
@@ -44,7 +44,7 @@ The only files which can be selected for exclusion are scripts.
 
 - Components and ScriptableObjects will have an additional section above their editor displaying the _todos_ present in this script.
 
-![](Screenshots/Editor.png)
+![](.Screenshots/Editor.png)
 
 - "Hide editors todos" will hide the _todos_ displayed above Components and ScriptableObjects in the inspector.
 - The "Random" button on top of the window will select a random todo in the list and display it next to the button.
